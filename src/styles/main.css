@@ -1,0 +1,7 @@
+html, body {
+    width: 390px;
+    height: 844px;
+    overflow: hidden;
+    font-size: 16px;
+    background-color:blueviolet; /* Remover a cor */
+  }

@@ -1,0 +1,68 @@
+html, body {
+  width: 390px;
+  height: 844px;
+  overflow: hidden;
+  font-size: 16px;
+  background-color:blueviolet; /* Remover a cor */
+}
+
+.container-header {
+  background-color: #1b1b1b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 34px;
+}
+
+.container-header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 30px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  height: 40vmin;
+  pointer-events: none;
+  margin-bottom: 20px;
+}
+
+.main {
+  background-color: #f4f4f4; /* MUDAR A COR PARA FFF */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container p {
+  display: flex;
+  font-size: 3.5rem;
+  font-family: "Russo One", sans-serif;
+  color: #2a2a2a;
+  font-weight: 800;
+  margin-top: -70px;
+}
+
+
