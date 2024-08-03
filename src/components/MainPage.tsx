@@ -54,7 +54,9 @@ const MainPage: React.FC = () => {
           </Link>
         </div>
         <div className='searchbar'>
+          <Link to="/search">
           <FontAwesomeIcon icon={faSearch} className="search-icon" />
+          </Link>
           <input type="text" placeholder="Encontrar na Elektro" />
         </div>
         <div className='cart'>

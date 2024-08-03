@@ -4,6 +4,7 @@ import App from '../components/App';
 import MainPage from '../components/MainPage';
 import Options from '../components/Options';
 import Cart from '../components/Cart';
+import LoginError from '../components/LoginError';
 
 const AppRoutes: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const AppRoutes: React.FC = () => {
         <Route path="/main" element={<MainPage />} />
         <Route path="/options" element={<Options />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/loginerror" element={<LoginError />} />
       </Routes>
     </Router>
   );
