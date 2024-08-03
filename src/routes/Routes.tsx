@@ -5,6 +5,7 @@ import MainPage from '../components/MainPage';
 import Options from '../components/Options';
 import Cart from '../components/Cart';
 import LoginError from '../components/LoginError';
+import Search from "../components/Search";  
 
 const AppRoutes: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const AppRoutes: React.FC = () => {
         <Route path="/options" element={<Options />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/loginerror" element={<LoginError />} />
+        <Route path="/search" element={<Search />} />
       </Routes>
     </Router>
   );
