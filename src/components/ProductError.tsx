@@ -8,9 +8,10 @@ import homeIcon from '../assets/homeIcon.png';
 import chatIcon from '../assets/chatIcon.png';  
 import notificationsIcon from '../assets/notificationsIcon.png';
 import profileIcon from '../assets/profileIcon.png';
-import "../styles/LoginError.css";
+import back from '../assets/back.png';
+import "../styles/ProductError.css";
 
-const LoginError: React.FC = () => {
+const ProductError: React.FC = () => {
   return (
     <>
       <header className="container-header">
@@ -27,27 +28,28 @@ const LoginError: React.FC = () => {
         <div className="main">
             <h1>Opsss...</h1>
             <img src={error} className="error" alt="error" />
-            <p>Infelizmente, parece que você ainda não está logado.</p>
-            <div className="button-container">
-                <Link to="/register" className="button-register">Cadastrar</Link>
-                <Link to="/login" className="button-login">Fazer login</Link>
+            <p>Infelizmente, parece que não encontramos o produto desejado.</p>
+            <div className='back-button'>
+              <Link to="/main">
+                <img src={back} alt="back" />
+              </Link>
             </div>
 
         </div>
-        <footer className="footer3">
+        <footer className="footer">
               <Link to="/main">
                 <img src={homeIcon} alt="Home" />
                 <p>Home</p>
               </Link>
-              <Link to="/chat">
+              <Link to="/loginerror">
                 <img src={chatIcon} alt="Chat" />
                 <p>Chat</p>
               </Link>
-              <Link to="/notifications">
+              <Link to="/loginerror">
                 <img src={notificationsIcon} alt="Notifications" />
                 <p>Avisos</p>
               </Link>
-              <Link to="/profile">
+              <Link to="/loginerror">
                 <img src={profileIcon} alt="Profile" />
                 <p>Perfil</p>
               </Link>
@@ -57,4 +59,4 @@ const LoginError: React.FC = () => {
   );
 };
 
-export default LoginError;
+export default ProductError;

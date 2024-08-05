@@ -11,7 +11,7 @@ const App: React.FC = () => {
     <>
       <header className="container-header">
         <div className="header-left">
-          <a href="hora">9:41</a>
+          <a href="#hora">9:41</a>
         </div>
         <div className="header-right">
           <img src={sinal} alt="sinal" />
@@ -19,12 +19,12 @@ const App: React.FC = () => {
           <img src={bateria} alt="bateria" />
         </div>
       </header>
-      <div className="container">
+      <div className="mainscreen">
         <div className="main">
           <Link to="/main">
             <img src={logo} className="logo" alt="logo" />
           </Link>
-          <p>Elektro</p>
+          <h4>Elektro</h4>
         </div>
       </div>
     </>

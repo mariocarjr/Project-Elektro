@@ -60,7 +60,7 @@ const MainPage: React.FC = () => {
           <input type="text" placeholder="Encontrar na Elektro" />
         </div>
         <div className='cart'>
-          <Link to="/cart">
+          <Link to="/loginerror">
             <img src={cart} className="cart" alt="cart" />
           </Link>
         </div>
@@ -110,19 +110,19 @@ const MainPage: React.FC = () => {
               <p>Smartwatches</p>
             </div>
             <div className="navbar">
-              <Link to="/home">
+              <Link to="/main">
                 <img src={homeIcon} alt="Home" />
                 <p>Home</p>
               </Link>
-              <Link to="/chat">
+              <Link to="/loginerror">
                 <img src={chatIcon} alt="Chat" />
                 <p>Chat</p>
               </Link>
-              <Link to="/notifications">
+              <Link to="/loginerror">
                 <img src={notificationsIcon} alt="Notifications" />
                 <p>Avisos</p>
               </Link>
-              <Link to="/profile">
+              <Link to="/loginerror">
                 <img src={profileIcon} alt="Profile" />
                 <p>Perfil</p>
               </Link>
