@@ -33,9 +33,13 @@ const TVs: React.FC = () => {
         </div>
       </header>
       <div className="nav-bar">
+        <Link to="/options">
         <img src={menuIcon} alt="Menu" className="nav-icon" />
-        <span>Pesquisa</span>
+        </Link>
+        <span>Produtos</span>
+        <Link to="/loginerror">
         <img src={userIcon} alt="User" className="nav-icon" />
+        </Link>
       </div>
       <div className="search-page">
         <div className="search-container">

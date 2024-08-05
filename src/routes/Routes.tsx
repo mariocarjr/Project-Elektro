@@ -9,6 +9,11 @@ import TVs from '../components/TVs';
 import Celulares from '../components/Celulares';
 import CelularReview from '../components/CelularReview';
 import ProductError from '../components/ProductError';
+import CadastroPrev from '../components/CadastroPrev';
+import Cadastro from '../components/Cadastro';
+import CadastroCheck from '../components/CadastroCheck';
+import Login from '../components/Login';
+import Profile from '../components/Profile';
 
 const AppRoutes: React.FC = () => {
   return (
@@ -23,6 +28,11 @@ const AppRoutes: React.FC = () => {
         <Route path="/celulares" element={<Celulares />} />
         <Route path="/celular-review" element={<CelularReview />} />
         <Route path="/producterror" element={<ProductError />} />
+        <Route path="/cadastroprev" element={<CadastroPrev />} />
+        <Route path="/cadastro" element={<Cadastro />} />
+        <Route path="/cadastrocheck" element={<CadastroCheck />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </Router>
   );

@@ -12,16 +12,16 @@ const Options: React.FC = () => {
           <h1 className="user-text">Usuário</h1>
         </div>
       </header>
-      <div className="options-body">
-        <Link to="/loginerror" className="options-link">Editar dados</Link>
-        <hr className='divider' />
-        <Link to="/loginerror" className="options-link">Meus pedidos</Link>
-        <hr className='divider' />
-        <Link to="/loginerror" className="options-link">Meus produtos</Link>
-        <hr className='divider' />
-        <Link to="/loginerror" className="options-link">Meu carrinho</Link>
-        <hr className='divider' />
-        <Link to="/main" className="options-link">Sair</Link>
+      <div className="bodyform">
+        <Link to="/loginerror" className="options-link2">Editar dados</Link>
+        <hr className='divider2' />
+        <Link to="/loginerror" className="options-link2">Meus pedidos</Link>
+        <hr className='divider2' />
+        <Link to="/loginerror" className="options-link2">Meus produtos</Link>
+        <hr className='divider2' />
+        <Link to="/loginerror" className="options-link2">Meu carrinho</Link>
+        <hr className='divider2' />
+        <Link to="/main" className="options-link2">Sair</Link>
       </div>
     </div>
   );

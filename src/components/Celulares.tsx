@@ -29,7 +29,7 @@ const Celulares: React.FC = () => {
       </header>
       <div className="nav-bar">
         <img src={menuIcon} alt="Menu" className="nav-icon" />
-        <span>Pesquisa</span>
+        <span>Produtos</span>
         <img src={userIcon} alt="User" className="nav-icon" />
       </div>
       <div className="search-page">

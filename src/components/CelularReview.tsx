@@ -32,7 +32,7 @@ const CelularReview: React.FC = () => {
 
       <div className="nav-bar">
         <img src={menuIcon} alt="Menu" className="nav-icon" />
-        <span>Pesquisa</span>
+        <span>Produto</span>
         <img src={userIcon} alt="User" className="nav-icon" />
       </div>
 
@@ -50,7 +50,7 @@ const CelularReview: React.FC = () => {
             <p>R$ 800,00</p>
           </div>
           <div className="right-section">
-            <img src={userphoto} alt="User" className="user-photo" />
+            <img src={userphoto} alt="User" className="user-photo2" />
             <p>João Ribeiro</p>
             <div className="stars">
               {[...Array(3)].map((_, index) => (
@@ -71,8 +71,8 @@ const CelularReview: React.FC = () => {
           <li>Câmera frontal TrueDepth de 12 MP, com modo noturno e gravação 4K Dolby Vision</li>
         </ul>
       </div>
-      <div className='button'>
-      <button className="buy-button">Comprar</button>
+      <div className='button4'>
+      <button className="buy-button2">Comprar</button>
       </div>
 
       <footer className="footer2">

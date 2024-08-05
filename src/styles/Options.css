@@ -25,7 +25,7 @@
     font-weight: 500;
   }
 
-  .options-body {
+  .bodyform {
     width: 80%;
     height: 618px;
     display: flex;
@@ -34,7 +34,7 @@
     padding: 20px;
   }
   
-  .options-link {
+  .options-link2 {
     width: 100%;
     padding: 10px;
     margin: 5px 0;
@@ -45,11 +45,17 @@
     text-align: center;
   }
   
-  .options-link:last-child {
+  .options-link2:last-child {
     margin-top: auto;
     border: none;
     text-align: start;
     font-weight: bold;
     margin-left: 20px;
+  }
+
+  .divider2 {
+    width: 100%;
+    height: 1px;
+    background-color: #333;
   }
   

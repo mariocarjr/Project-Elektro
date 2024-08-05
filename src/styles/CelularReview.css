@@ -108,7 +108,7 @@
     margin-top: 20px;
   }
   
-  .user-photo {
+  .user-photo2 {
     width: 56px;
     height: 56px;
     border-radius: 50%;
@@ -147,13 +147,13 @@
     font-size: 0.9rem;
   }
 
-  .button {
+  .button4 {
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
-  .buy-button {
+  .buy-button2 {
     display: flex;
     align-items: center;
     justify-content: center;

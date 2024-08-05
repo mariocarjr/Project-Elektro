@@ -29,7 +29,7 @@ const LoginError: React.FC = () => {
             <img src={error} className="error" alt="error" />
             <p>Infelizmente, parece que você ainda não está logado.</p>
             <div className="button-container">
-                <Link to="/register" className="button-register">Cadastrar</Link>
+                <Link to="/cadastroprev" className="button-register">Cadastrar</Link>
                 <Link to="/login" className="button-login">Fazer login</Link>
             </div>
 
@@ -39,11 +39,11 @@ const LoginError: React.FC = () => {
                 <img src={homeIcon} alt="Home" />
                 <p>Home</p>
               </Link>
-              <Link to="/chat">
+              <Link to="/loginerror">
                 <img src={chatIcon} alt="Chat" />
                 <p>Chat</p>
               </Link>
-              <Link to="/notifications">
+              <Link to="/loginerror">
                 <img src={notificationsIcon} alt="Notifications" />
                 <p>Avisos</p>
               </Link>

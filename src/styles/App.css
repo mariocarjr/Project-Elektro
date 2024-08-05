@@ -4,7 +4,8 @@ html, body {
   font-size: 16px;
   font-family: 'Arial', sans-serif;
   background-color: #f5f5f5;
-  overflow: scroll; /*  "HIDDEN" */
+  overflow: scroll; /* Por algum motivo tive problemas para botar o HIDDEN,
+  ele simplesmente não herdava... */
 }
 
 .container-header {

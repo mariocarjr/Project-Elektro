@@ -4,7 +4,8 @@ html, body {
   font-size: 16px;
   font-family: 'Arial', sans-serif;
   background-color: #f5f5f5;
-  overflow: scroll; /* HIDDEN */
+  overflow: scroll; /* Por algum motivo tive problemas para botar o HIDDEN,
+  ele simplesmente não herdava... */
 }
 
 .container-header {
@@ -33,24 +34,24 @@ html, body {
   gap: 10px;
 }
 
-.container-searchbar {
+.container-searchbar5 {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 71px;
   background-color: #2b2b2b;
-  padding: 0 20px;
+  padding: 0 10px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
 }
 
-.container-searchbar .options,
-.container-searchbar .searchbar,
-.container-searchbar .cart {
+.container-searchbar5 .options,
+.container-searchbar5 .searchbarv2,
+.container-searchbar5 .cart {
   margin: 0 10px; 
 }
 
-.container-searchbar .searchbar {
+.container-searchbar5 .searchbarv2 {
   display: flex;
   align-items: center;
   background-color: #fff;
@@ -60,7 +61,7 @@ html, body {
 
 }
 
-.container-searchbar .searchbar input {
+.container-searchbar5 .searchbar2 input {
   border: none;
   outline: none;
   padding: 10px;
@@ -70,12 +71,12 @@ html, body {
   font-weight: 600;
 }
 
-.container-searchbar ::placeholder {
+.container-searchbar5 ::placeholder {
   color: #2b2b2b;
   font-weight: 600;
 }
 
-.container-searchbar .search-icon {
+.container-searchbar5 .search-icon {
   color: #000;
   font-size: 1.4rem;
   margin-left: 15px;

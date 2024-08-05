@@ -29,7 +29,7 @@ const ProductError: React.FC = () => {
             <h1>Opsss...</h1>
             <img src={error} className="error" alt="error" />
             <p>Infelizmente, parece que não encontramos o produto desejado.</p>
-            <div className='back-button'>
+            <div className='back-button3'>
               <Link to="/main">
                 <img src={back} alt="back" />
               </Link>

@@ -32,7 +32,7 @@ import instagram from '../assets/instagram.png';
 import tiktok from '../assets/tiktok.png';
 import twitter from '../assets/twitter.png';
 import linkedin from '../assets/linkedin.png';
-import '../styles/main.css';
+import '../styles/MainPage.css';
 
 const MainPage: React.FC = () => {
   return (
@@ -47,13 +47,13 @@ const MainPage: React.FC = () => {
           <img src={bateria} alt="bateria" />
         </div>
       </header>
-      <div className="container-searchbar">
+      <div className="container-searchbar5">
         <div className='options'>
           <Link to="/options">
             <img src={sidebar} className="sidebar" alt="sidebar" />
           </Link>
         </div>
-        <div className='searchbar'>
+        <div className='searchbarv2'>
           <Link to="/search">
           <FontAwesomeIcon icon={faSearch} className="search-icon" />
           </Link>
@@ -122,7 +122,7 @@ const MainPage: React.FC = () => {
                 <img src={notificationsIcon} alt="Notifications" />
                 <p>Avisos</p>
               </Link>
-              <Link to="/loginerror">
+              <Link to="/profile">
                 <img src={profileIcon} alt="Profile" />
                 <p>Perfil</p>
               </Link>

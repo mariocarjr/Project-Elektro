@@ -30,7 +30,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Alinha o conteúdo verticalmente */
+    justify-content: center;
     align-items: center;
   }
   
@@ -53,11 +53,11 @@
   }
   
   .main h1 {
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-family: "Russo One", sans-serif;
     color: #000;
-    font-weight: 900;
-    margin-top: -70px;
+    font-weight: 500;
+    margin-top: 10px;
   }
   
   .main p {
@@ -66,41 +66,14 @@
     color: #2a2a2a;
     font-weight: 400;
     text-align: center;
-    margin-top: 20px;
+    margin-top: -15px;
     padding: 10px;
   }
   
-  .back-button3 {
+  .back-button2 {
     display: flex;
-    margin-left: 220px;
+    margin-top: 40px;
+    margin-left: 250px;
   }
 
-  .footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 60px;
-    width: 390px;
-    position: fixed;
-    bottom: 0;
-    background-color: #1b1b1b;
-    padding: 8px;
-  }
-  
-  .footer a {
-    color: #fff;
-    text-decoration: none;
-    text-align: center;
-  }
-  
-  .footer img {
-    width: 24px;
-    height: 24px;
-  }
-  
-  .footer p {
-    margin: 0;
-    color: #dedede;
-    font-size: 0.8rem;
-  }
   
